@@ -1,0 +1,135 @@
+
+*
+{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+
+body
+{
+background: linear-gradient(135deg,#4203a9,#90bafc);
+}
+
+/* 
+------here is the code for the top container----- */
+
+
+.first-container 
+{
+width:100%;
+height:auto;
+background:linear-gradient(135deg,#cf9aff,#95c0ff) !important;   
+margin-bottom:10px;
+border-radius:10px;
+
+/* border-top-left-radius:10px;
+border-top-left-radius:10px;
+border-bottom-left-radius:1px!important;
+border-bottom-right-radius:1px!important; */
+
+}
+
+.first-container .addbtn
+{
+background: linear-gradient(#9418fd,#571094);
+
+font-weight:600
+
+}
+.heading
+{
+display:Flex;
+}
+
+.navbar .heading .noteslogo 
+{
+height:60px;
+width:40px;
+}
+
+.navbar .heading .noteslogo img  
+{
+ max-width:100%;
+ object-fit:contain;
+ }
+
+ /* ------Here is the code for the table container------- */
+
+
+ .table_container
+ {
+color:white;
+background: linear-gradient(135deg,#cf9aff,#95c0ff) !important;
+border:1px solid #95c0ff;
+margin-top:10px;
+border-bottom-left-radius:10px;
+border-bottom-left-radius:10px;
+
+}
+
+ .btn
+ {
+background:linear-gradient(#9418fd,#571094);
+font-weight:600;
+ }
+/* 
+ .notescontainer
+ {
+
+    height:auto;
+    background: linear-gradient(135deg,#cf9aff,#95c0ff) !important;
+ 
+ } */
+
+ .subheading
+{
+
+color:black;
+font-weight:500;
+font-size:25px;
+
+}
+
+
+.submitbtn
+{
+display: flex;
+width:140px;
+height:60px;
+background:linear-gradient(#9418fd,#571094);
+border-radius:10px;
+color:white;
+font-weight: 500;
+}
+
+.submitlogo img
+{
+width:40px;
+height:40px;
+}
+
+
+.addbtn
+{
+color:white;
+font-weight:600;
+}
+
+
+.submitbutton img
+{
+    max-width:100px;
+max-height:full;
+object-fit: contain;
+
+}
+
+
+.tableheading
+{
+color:black;
+font-size:20px;
+font-weight:500;
+}
